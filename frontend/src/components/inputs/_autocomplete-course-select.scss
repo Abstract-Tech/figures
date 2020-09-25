@@ -16,6 +16,11 @@ button.selector-trigger-button {
   transition: all 0.2s ease-in-out;
   margin-left: calcRem(20);
 
+  @media screen and (max-width:478px) {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
   &.positive {
     border: calcRem(2) solid $primary-color;
     color: $primary-color;
@@ -26,10 +31,11 @@ button.selector-trigger-button {
     color: pick-visible-color($primary-color, #fff, $base-text-color);
   }
 
-  &:hover, &:hover:not(:disabled) {
+  &:hover,
+  &:hover:not(:disabled) {
     cursor: pointer;
     background: #FFFFFF;
-    box-shadow: 2px 4px 6px 0 rgba(0,0,0,0.15);
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
     color: $primary-color;
   }
 }
@@ -39,9 +45,14 @@ button.selector-trigger-button {
   top: 0;
   right: 0;
   width: calcRem(360);
+
+  @media screen and (max-width:478px) {
+    width: calcRem(220)
+  }
+
   padding: calcRem(17) 0 calcRem(7);
   background: #FFFFFF;
-  box-shadow: 2px 4px 6px 0 rgba(0,0,0,0.15);
+  box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
   border-radius: $elements-border-radius;
   z-index: 50;
 }
@@ -57,7 +68,8 @@ button.selector-trigger-button {
   right: calcRem(8);
   border-radius: $elements-border-radius;
 
-  &:hover, &:hover:not(:disabled) {
+  &:hover,
+  &:hover:not(:disabled) {
     color: $primary-color;
     background: none;
     cursor: pointer;
@@ -66,7 +78,12 @@ button.selector-trigger-button {
 
 // we have to style inputs like this since the default Open edX stylesheet has these selectors and (sigh) has them target globally in the entire document. Essentially, that renders targeting purely by class name basically futile.
 
-textarea, input[type="text"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"] {
+textarea,
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
 
   &.input {
     @include override-edx-styles;
@@ -82,9 +99,7 @@ textarea, input[type="text"], input[type="url"], input[type="email"], input[type
   }
 }
 
-.suggestions-container {
-
-}
+.suggestions-container {}
 
 .suggestionsList {
   padding: 0;

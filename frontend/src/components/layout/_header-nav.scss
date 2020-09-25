@@ -4,6 +4,10 @@
 .header-nav {
   margin-left: auto;
   display: flex;
+  @media screen and (max-width:478px){
+    flex-direction: column;
+    align-items: normal;
+  }
   align-items: center;
 }
 
@@ -14,6 +18,9 @@ a.header-nav__link, a.header-nav__link:not(.btn) {
   color: pick-visible-color($primary-color, #fff, $base-text-color);
   text-decoration: none;
   position: relative;
+  @media screen and (max-width:478px){
+  padding: 8px;
+  }
 
   &:after {
     position: absolute;

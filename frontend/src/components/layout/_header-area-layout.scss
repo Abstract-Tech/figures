@@ -10,7 +10,7 @@
   padding: 0 calcRem(20);
 
   &:before {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
     left: 0;
     top: 0;
@@ -23,6 +23,11 @@
 
 .header-top {
   display: flex;
+
+  @media screen and (max-width:991px) {
+    display: block;
+  }
+
   align-items: center;
   padding: calcRem(5) 0 calcRem(20);
 }

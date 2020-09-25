@@ -68,7 +68,7 @@ class ProgressOverview extends Component {
   setCoursesIndex = (courses) => {
     const coursesFilterOptions = courses.map((course, index) => {
       const entry = {
-        id: course.id,
+      
         label: `${course.name} | ${course.number} | ${course.id}`,
         name: course.name,
         number: course.number,
