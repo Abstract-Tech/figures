@@ -253,6 +253,9 @@
   display: flex;
   align-items: center;
   padding: 0.5rem 0 2rem; }
+  @media screen and (max-width: 991px) {
+    .header-top__a3IQECBP {
+      display: block; } }
 
 .header-logo-container__mFztMqyE img {
   height: 6rem; }
@@ -272,6 +275,10 @@
   margin-left: auto;
   display: flex;
   align-items: center; }
+  @media screen and (max-width: 478px) {
+    .header-nav__1uzNdFp- {
+      flex-direction: column;
+      align-items: normal; } }
 
 a.header-nav__link__2xDOlv0N, a.header-nav__link__2xDOlv0N:not(.btn__3ubQcWhz) {
   margin-right: 3rem;
@@ -280,6 +287,9 @@ a.header-nav__link__2xDOlv0N, a.header-nav__link__2xDOlv0N:not(.btn__3ubQcWhz) {
   color: #fff;
   text-decoration: none;
   position: relative; }
+  @media screen and (max-width: 478px) {
+    a.header-nav__link__2xDOlv0N, a.header-nav__link__2xDOlv0N:not(.btn__3ubQcWhz) {
+      padding: 8px; } }
   a.header-nav__link__2xDOlv0N:after, a.header-nav__link__2xDOlv0N:not(.btn__3ubQcWhz):after {
     position: absolute;
     bottom: -1rem;
@@ -347,6 +357,10 @@ button.selector-trigger-button__270oLx99 {
     letter-spacing: 0;
     text-shadow: none;
     text-transform: none; }
+  @media screen and (max-width: 478px) {
+    button.selector-trigger-button__270oLx99 {
+      margin-left: 0;
+      margin-top: 15px; } }
   button.selector-trigger-button__270oLx99.positive__3sxLeAR9 {
     border: 0.2rem solid #0090c1;
     color: #0090c1; }
@@ -369,6 +383,9 @@ button.selector-trigger-button__270oLx99 {
   box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   z-index: 50; }
+  @media screen and (max-width: 478px) {
+    .selector-modal__1V1K6NTF {
+      width: 22rem; } }
 
 .modal-dismiss__QSVcnYZn {
   box-shadow: none;
@@ -409,7 +426,12 @@ button.selector-trigger-button__270oLx99 {
     background: none;
     cursor: pointer; }
 
-textarea.input__3U6yZq_j, input[type="text"].input__3U6yZq_j, input[type="url"].input__3U6yZq_j, input[type="email"].input__3U6yZq_j, input[type="password"].input__3U6yZq_j, input[type="tel"].input__3U6yZq_j {
+textarea.input__3U6yZq_j,
+input[type="text"].input__3U6yZq_j,
+input[type="url"].input__3U6yZq_j,
+input[type="email"].input__3U6yZq_j,
+input[type="password"].input__3U6yZq_j,
+input[type="tel"].input__3U6yZq_j {
   box-shadow: none;
   outline: none;
   border: none;
@@ -427,7 +449,17 @@ textarea.input__3U6yZq_j, input[type="text"].input__3U6yZq_j, input[type="url"].
   margin: 0 2rem;
   color: #5e5a65;
   width: 100%; }
-  textarea.input__3U6yZq_j:hover, textarea.input__3U6yZq_j:hover:not(:disabled) , input[type="text"].input__3U6yZq_j:hover, input[type="text"].input__3U6yZq_j:hover:not(:disabled) , input[type="url"].input__3U6yZq_j:hover, input[type="url"].input__3U6yZq_j:hover:not(:disabled) , input[type="email"].input__3U6yZq_j:hover, input[type="email"].input__3U6yZq_j:hover:not(:disabled) , input[type="password"].input__3U6yZq_j:hover, input[type="password"].input__3U6yZq_j:hover:not(:disabled) , input[type="tel"].input__3U6yZq_j:hover, input[type="tel"].input__3U6yZq_j:hover:not(:disabled)  {
+  textarea.input__3U6yZq_j:hover, textarea.input__3U6yZq_j:hover:not(:disabled) ,
+  input[type="text"].input__3U6yZq_j:hover,
+  input[type="text"].input__3U6yZq_j:hover:not(:disabled) ,
+  input[type="url"].input__3U6yZq_j:hover,
+  input[type="url"].input__3U6yZq_j:hover:not(:disabled) ,
+  input[type="email"].input__3U6yZq_j:hover,
+  input[type="email"].input__3U6yZq_j:hover:not(:disabled) ,
+  input[type="password"].input__3U6yZq_j:hover,
+  input[type="password"].input__3U6yZq_j:hover:not(:disabled) ,
+  input[type="tel"].input__3U6yZq_j:hover,
+  input[type="tel"].input__3U6yZq_j:hover:not(:disabled)  {
     box-shadow: none;
     outline: none;
     border: none;
@@ -440,7 +472,12 @@ textarea.input__3U6yZq_j, input[type="text"].input__3U6yZq_j, input[type="url"].
     letter-spacing: 0;
     text-shadow: none;
     text-transform: none; }
-  textarea.input__3U6yZq_j::placeholder, input[type="text"].input__3U6yZq_j::placeholder, input[type="url"].input__3U6yZq_j::placeholder, input[type="email"].input__3U6yZq_j::placeholder, input[type="password"].input__3U6yZq_j::placeholder, input[type="tel"].input__3U6yZq_j::placeholder {
+  textarea.input__3U6yZq_j::placeholder,
+  input[type="text"].input__3U6yZq_j::placeholder,
+  input[type="url"].input__3U6yZq_j::placeholder,
+  input[type="email"].input__3U6yZq_j::placeholder,
+  input[type="password"].input__3U6yZq_j::placeholder,
+  input[type="tel"].input__3U6yZq_j::placeholder {
     color: rgba(44, 42, 47, 0.3); }
 
 .suggestionsList__2s5E-70E {
@@ -541,6 +578,10 @@ button.selector-trigger-button__2-fqpH4V {
     letter-spacing: 0;
     text-shadow: none;
     text-transform: none; }
+  @media screen and (max-width: 478px) {
+    button.selector-trigger-button__2-fqpH4V {
+      margin-left: 0;
+      margin-top: 15px; } }
   button.selector-trigger-button__2-fqpH4V.positive__1BBe0Eho {
     border: 0.2rem solid #0090c1;
     color: #0090c1; }
@@ -563,6 +604,9 @@ button.selector-trigger-button__2-fqpH4V {
   box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   z-index: 50; }
+  @media screen and (max-width: 478px) {
+    .selector-modal__3rPyDIPq {
+      width: 22rem; } }
 
 .modal-dismiss__XEYBFZfH {
   box-shadow: none;
@@ -603,7 +647,12 @@ button.selector-trigger-button__2-fqpH4V {
     background: none;
     cursor: pointer; }
 
-textarea.input__2lx3TsF4, input[type="text"].input__2lx3TsF4, input[type="url"].input__2lx3TsF4, input[type="email"].input__2lx3TsF4, input[type="password"].input__2lx3TsF4, input[type="tel"].input__2lx3TsF4 {
+textarea.input__2lx3TsF4,
+input[type="text"].input__2lx3TsF4,
+input[type="url"].input__2lx3TsF4,
+input[type="email"].input__2lx3TsF4,
+input[type="password"].input__2lx3TsF4,
+input[type="tel"].input__2lx3TsF4 {
   box-shadow: none;
   outline: none;
   border: none;
@@ -621,7 +670,17 @@ textarea.input__2lx3TsF4, input[type="text"].input__2lx3TsF4, input[type="url"].
   margin: 0 2rem;
   color: #5e5a65;
   width: 100%; }
-  textarea.input__2lx3TsF4:hover, textarea.input__2lx3TsF4:hover:not(:disabled) , input[type="text"].input__2lx3TsF4:hover, input[type="text"].input__2lx3TsF4:hover:not(:disabled) , input[type="url"].input__2lx3TsF4:hover, input[type="url"].input__2lx3TsF4:hover:not(:disabled) , input[type="email"].input__2lx3TsF4:hover, input[type="email"].input__2lx3TsF4:hover:not(:disabled) , input[type="password"].input__2lx3TsF4:hover, input[type="password"].input__2lx3TsF4:hover:not(:disabled) , input[type="tel"].input__2lx3TsF4:hover, input[type="tel"].input__2lx3TsF4:hover:not(:disabled)  {
+  textarea.input__2lx3TsF4:hover, textarea.input__2lx3TsF4:hover:not(:disabled) ,
+  input[type="text"].input__2lx3TsF4:hover,
+  input[type="text"].input__2lx3TsF4:hover:not(:disabled) ,
+  input[type="url"].input__2lx3TsF4:hover,
+  input[type="url"].input__2lx3TsF4:hover:not(:disabled) ,
+  input[type="email"].input__2lx3TsF4:hover,
+  input[type="email"].input__2lx3TsF4:hover:not(:disabled) ,
+  input[type="password"].input__2lx3TsF4:hover,
+  input[type="password"].input__2lx3TsF4:hover:not(:disabled) ,
+  input[type="tel"].input__2lx3TsF4:hover,
+  input[type="tel"].input__2lx3TsF4:hover:not(:disabled)  {
     box-shadow: none;
     outline: none;
     border: none;
@@ -634,7 +693,12 @@ textarea.input__2lx3TsF4, input[type="text"].input__2lx3TsF4, input[type="url"].
     letter-spacing: 0;
     text-shadow: none;
     text-transform: none; }
-  textarea.input__2lx3TsF4::placeholder, input[type="text"].input__2lx3TsF4::placeholder, input[type="url"].input__2lx3TsF4::placeholder, input[type="email"].input__2lx3TsF4::placeholder, input[type="password"].input__2lx3TsF4::placeholder, input[type="tel"].input__2lx3TsF4::placeholder {
+  textarea.input__2lx3TsF4::placeholder,
+  input[type="text"].input__2lx3TsF4::placeholder,
+  input[type="url"].input__2lx3TsF4::placeholder,
+  input[type="email"].input__2lx3TsF4::placeholder,
+  input[type="password"].input__2lx3TsF4::placeholder,
+  input[type="tel"].input__2lx3TsF4::placeholder {
     color: rgba(44, 42, 47, 0.3); }
 
 .suggestionsList__hC8g31bw {
